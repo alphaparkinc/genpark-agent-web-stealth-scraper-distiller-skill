@@ -1,0 +1,28 @@
+{
+  "name": "genpark-agent-web-stealth-scraper-distiller-skill",
+  "version": "1.0.0",
+  "description": "Zero-dependency web page scraper & markdown distiller stripping cookie banners, navbars & ads for clean agent consumption.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "web-scraper",
+    "markdown-distiller",
+    "jina-reader",
+    "firecrawl",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "distill_html_to_markdown",
+      "description": "Convert raw HTML document into clean, dense markdown stripped of boilerplate."
+    },
+    {
+      "name": "extract_page_metadata",
+      "description": "Extract canonical title, OpenGraph description, and primary article headings."
+    },
+    {
+      "name": "run_benchmark_web_distiller",
+      "description": "Benchmark web page parsing speed and density improvement."
+    }
+  ]
+}
